@@ -22,3 +22,6 @@
   7. IdEntity
   8. Point
   9. PointRepository
++ SpringBatch TEST 공통
+  1. BatchTestSupport
+  2. application.yml(Test) 구현
