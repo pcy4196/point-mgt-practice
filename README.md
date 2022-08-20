@@ -35,4 +35,9 @@
     1. ExpirePointJobConfigurationTest.java
     2. ExpirePointJobConfiguration.java
     3. ExpirePointStepConfiguration.java
-  
++ SpringBatch 로직 구현 - 포인트 만료 -
+  + 추가구현(Validator, Incrementer)
+  + 추가
+    1. TodayJobParameterValidator.java
+  + 수정
+    1. ExpirePointJobConfiguration.java
