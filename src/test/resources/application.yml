@@ -8,3 +8,8 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: create-drop
+
+# jpa 쿼리 파라미터 보이게 설정
+logging:
+  level:
+    org.hibernate.type: trace

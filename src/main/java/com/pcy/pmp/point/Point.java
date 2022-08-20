@@ -1,10 +1,7 @@
 package com.pcy.pmp.point;
 
 import com.pcy.pmp.point.wallet.PointWallet;
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.math.BigInteger;
@@ -34,6 +31,7 @@ public class Point extends IdEntity {
     boolean used;
 
     @Column(name = "is_expired", nullable = false, columnDefinition = "TINYINT", length = 1)
+    @Setter
     boolean expired;
 
     public Point(

@@ -1,10 +1,7 @@
 package com.pcy.pmp.point.wallet;
 
 import com.pcy.pmp.point.IdEntity;
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -22,5 +19,6 @@ public class PointWallet extends IdEntity {
     String userId;
 
     @Column(name = "amount", columnDefinition = "BIGINT")
+    @Setter
     BigInteger amount;
 }

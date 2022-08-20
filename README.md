@@ -24,4 +24,15 @@
   9. PointRepository
 + SpringBatch TEST 공통
   1. BatchTestSupport
-  2. application.yml(Test) 구현 
+  2. application.yml(Test) 구현
+#### 2022.08.21
++ SpringBatch 로직 구현 - 포인트 만료 -
+  + 수정
+    1. application.yml
+    2. PointWallet.java
+    3. Point.java
+  + 추가
+    1. ExpirePointJobConfigurationTest.java
+    2. ExpirePointJobConfiguration.java
+    3. ExpirePointStepConfiguration.java
+  
