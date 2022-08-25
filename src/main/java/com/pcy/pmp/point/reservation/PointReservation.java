@@ -2,10 +2,7 @@ package com.pcy.pmp.point.reservation;
 
 import com.pcy.pmp.point.IdEntity;
 import com.pcy.pmp.point.wallet.PointWallet;
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.math.BigInteger;
@@ -32,6 +29,7 @@ public class PointReservation extends IdEntity {
     int availableDays;                      // 유효일
 
     @Column(name = "is_executed", columnDefinition = "TINYINT", length = 1, nullable = false)
+    @Setter
     boolean executed;                       // 실행여부
 
     // 생성자
