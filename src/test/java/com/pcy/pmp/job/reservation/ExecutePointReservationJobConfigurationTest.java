@@ -54,7 +54,7 @@ class ExecutePointReservationJobConfigurationTest extends BatchTestSupport {
         );
 
         // when
-        // executePointREservationJob을 수행
+        // executePointReservationJob을 수행
         JobParameters jobParameters = new JobParametersBuilder()
                 .addString("today", "2022-08-05")
                 .toJobParameters();

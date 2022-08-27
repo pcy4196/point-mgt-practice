@@ -27,7 +27,7 @@ import java.util.Map;
 
 @Configuration
 @AllArgsConstructor
-public class executePointReservationStepConfiguration {
+public class ExecutePointReservationStepConfiguration {
 
     private final StepBuilderFactory stepBuilderFactory;
 
