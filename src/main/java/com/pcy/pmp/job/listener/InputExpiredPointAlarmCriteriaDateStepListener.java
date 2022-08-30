@@ -6,10 +6,12 @@ import org.springframework.batch.core.JobParameter;
 import org.springframework.batch.core.StepExecution;
 import org.springframework.batch.core.StepExecutionListener;
 import org.springframework.batch.item.ExecutionContext;
+import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
+@Component
 public class InputExpiredPointAlarmCriteriaDateStepListener implements StepExecutionListener {
     @Override
     public void beforeStep(StepExecution stepExecution) {

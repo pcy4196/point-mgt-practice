@@ -60,3 +60,12 @@
     3. MessageExpiredPointJobConfiguration.java
     4. MessageExpiredPointJobConfigurationTest.java
     5. MessageExpirePointStepConfiguration.java
+#### 2022.08.31
++ QueryDSL 추가 - sumByExpiredDate 구현
+  + 수정
+    1. InputExpiredPointAlarmCriteriaDateStepListener.java -- 어노테이션 추가
+    2. ExpiredPointSummary.java -- @QueryProjection 추가(Q파일 만드는 용도)
+    3. PointRepository.java 
+  + 추가
+    1. PointCustomRepository.java
+    2. PointCustomRepositoryImpl.java
