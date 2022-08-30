@@ -50,3 +50,13 @@
     1. ExecutePointReservationJobConfigurationTest.java
     2. ExecutePointReservationJobConfiguration.java
     3. ExecutePointReservationStepConfiguration.java
+#### 2022.08.30
++ SpringBatch 로직 구현 - 포인트 메시지 만들기 -
+  + 수정
+    1. Message.java
+  + 추가
+    1. ExpiredPointSummary.java
+    2. InputExpiredPointAlarmCriteriaDateStepListener.java
+    3. MessageExpiredPointJobConfiguration.java
+    4. MessageExpiredPointJobConfigurationTest.java
+    5. MessageExpirePointStepConfiguration.java
