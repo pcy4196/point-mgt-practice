@@ -69,3 +69,14 @@
   + 추가
     1. PointCustomRepository.java
     2. PointCustomRepositoryImpl.java
+#### 2022.09.01
++ SpringBatch 로직 구현 - 만료예정 포인트 메시지 만들기 -
+  + 수정
+    1. Message.java
+    2. PointCustomRepository.java
+    3. PointCustomRepositoryImpl.java
+  + 추가
+    1. InputExpiredSoonPointAlarmCriteriaDateStepListener.java
+    2. MessageExpireSoonPointJobConfiguration.java
+    3. MessageExpireSoonPointStepConfiguration.java
+    4. MessageExpireSoonPointJobConfigurationTest.java
