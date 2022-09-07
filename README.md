@@ -80,3 +80,6 @@
     2. MessageExpireSoonPointJobConfiguration.java
     3. MessageExpireSoonPointStepConfiguration.java
     4. MessageExpireSoonPointJobConfigurationTest.java
+#### 2022.09.07
++ SpringBatch 로직 구현 - Build & Run -
+  
